@@ -47,5 +47,11 @@
         max-height: initial;
         
     }
+    .text-section {
+        margin-top: 75px;
+        flex: 15;
+        flex-direction: row;
+        
+    }
  }
 
