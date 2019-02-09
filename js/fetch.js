@@ -11,19 +11,19 @@ linkArray.forEach((eachLink) => {
         switch (eachLink) {
 
             case acaciaLink:
-                fetchPage(eachLink, 'honey/acacia.html');
+                fetchPage(eachLink, '/project-rwd-honey/honey/acacia.html');
                 break;
 
             case heatherLink:
-                fetchPage(eachLink, 'honey/heather.html');
+                fetchPage(eachLink, '/project-rwd-honey/honey/heather.html');
                 break;
 
             case buckwheatLink:
-                fetchPage(eachLink, 'honey/buckwheat.html');
+                fetchPage(eachLink, '/project-rwd-honey/honey/buckwheat.html');
                 break;
 
             case honeydewLink:
-                fetchPage(eachLink, 'honey/honeydew.html');
+                fetchPage(eachLink, '/project-rwd-honey/honey/honeydew.html');
                 break;
         }
     })
@@ -42,19 +42,19 @@ linkArrayFn.forEach((eLink) => {
     eLink.addEventListener('click', (e) => {
         switch (eLink) {
             case PuffedCerealLink:
-                fetchPage(eLink, 'recipes/puffedCereal.html');
+                fetchPage(eLink, '/project-rwd-honey/recipes/puffedCereal.html');
                 break;
 
             case ChocoladeBitesLink:
-                fetchPage(eLink, 'recipes/chocoladeBites.html');
+                fetchPage(eLink, '/project-rwd-honey/recipes/chocoladeBites.html');
                 break;
 
             case TropicalSmoothieBowlLink:
-                fetchPage(eLink, 'recipes/tropicalSmoothieBowl.html');
+                fetchPage(eLink, '/project-rwd-honey/recipes/tropicalSmoothieBowl.html');
                 break;
 
                 case ContactlLink:
-                fetchPage(eLink, 'contact.html');
+                fetchPage(eLink, '/project-rwd-honey/contact.html');
                 break;
         }
     })
@@ -70,15 +70,15 @@ linkArr.forEach((elemLink) => {
     elemLink.addEventListener('click', (e) => {
         switch (elemLink) {
             case AcaciaLink:
-                fetchPage(elemLink, 'honey/acacia.html');
+                fetchPage(elemLink, '/project-rwd-honey/honey/acacia.html');
                 break;
 
             case HeatherLink:
-                fetchPage(elemLink, 'honey/heather.html');
+                fetchPage(elemLink, '/project-rwd-honey/honey/heather.html');
                 break;
 
             case HoneydewLink:
-                fetchPage(elemLink, 'honey/honeydew.html');
+                fetchPage(elemLink, '/project-rwd-honey/honey/honeydew.html');
                 break;
         }
     })
