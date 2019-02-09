@@ -70,7 +70,7 @@
 @media screen and (max-width:600px) {
     .image-section {
         width: 100%!important;
-        background-size: 40vh;
+        background-size: 32vh;
         min-height: 200px;
     }
   }
