@@ -1,0 +1,42 @@
+#preloader {
+    background-color: #cfcce0;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1040;
+
+  
+}
+
+text {
+    stroke: #000;
+    stroke-width: 1.5;
+    stroke-dasharray: 20;
+    font: 14em/1 'Russo One', Impact;
+}
+
+.g-lines path {
+    stroke: rgb(110, 86, 13);
+    stroke-width: 4;
+}
+
+.preloader {
+    z-index: 0;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.done {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.overlay {
+    position: relative;
+    width: 100%;
+    margin: 0;
+
+}

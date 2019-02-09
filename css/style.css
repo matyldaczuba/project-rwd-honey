@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  font-weight: medium;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+@media screen and (max-width:760px) {
+  body {
+    
+    overflow: visible;
+    overflow-x: hidden;
+  }
+}
+
+
+.flex-center,
+.logo,
+.gallery-nav div,
+.gallery-counter div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,76 @@
+.image-section {
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    border-radius: 0%!important;
+    margin-bottom: 30px;
+}
+
+.img-honey-first {
+    background-image: url(https://www.igourmet.com/images/productsLG/mitica_acacia_honey.jpg);
+    background-size: 55vh;
+}
+
+.img-honey-second {
+    background-image: url(https://www.ogilvys.com/wp-content/uploads/2015/07/englishheathweb.jpg);
+    background-size: 45vh;
+}
+
+.img-honey-third {
+    background-image: url(https://cdn.shopify.com/s/files/1/0257/6071/products/halfgallon-buckwheat_2048x@2x.jpg?v=1517514461);
+    background-size: 55vh;
+}
+
+.img-honey-fourth {
+    background-image: url(http://www.agrimontana-international.com/fileadmin/_processed_/csm_oscarbernelli-28_220b668961.jpg);
+    background-size: 57vh;
+}
+
+
+.img-recipe-first {
+    background-image: url(https://www.honey.com/images/general/_recipePage/104741/Breakfast-Cereal.png);
+    background-size: 60vh;
+}
+
+.img-recipe-second {
+    background-image: url(https://www.honey.com/images/general/_recipePage/102722/No-Bake-Chocolate-Peanut-Butter-Oat-Balls-75.png);
+    background-size: 60vh;
+}
+
+.img-recipe-third {
+    background-image: url(https://www.honey.com/images/general/_recipePage/104639/Tropical-Smoothie-Bowl.png);
+    background-size: 60vh;
+}
+
+
+
+
+#line-first-img {
+    width: 20%;
+}
+
+#line-second-img {
+    width: 40%;
+}
+
+#line-third-img {
+    width: 60%;
+}
+
+#line-fourth-img {
+    width: 80%;
+}
+
+#line-fifth-img {
+    width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .image-section {
+        width: 100%!important;
+        background-size: 40vh;
+        min-height: 200px;
+    }
+  }

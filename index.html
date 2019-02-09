@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Honey</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Style -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/mdb.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="stylesheet" href="css/startPage.css">
+  <link rel="stylesheet" href="css/text-section.css">
+  <link rel="stylesheet" href="css/sidebar-section.css">
+  <link rel="stylesheet" href="css/image-section.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/mati.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Slabo+27px|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+
+<body class=" hidden-sn white-skin animated">
+  <div id="page-preloader" class="preloader">
+        <svg id="preloader" viewbox="0 0 1024 640">
+            <linearGradient id="gr-mask-opacity" x1="100%" y1="0" x2="100%" y2="25%" gradientUnits="objectBoundingBox">
+                <animate attributeName="x1" values="-100%;100%;" dur="6s" repeatCount="indefinite" />
+                <animate attributeName="x2" values="0%;200%;" dur="6s" repeatCount="indefinite" />
+
+                <stop stop-color="rgb(0,0,0)" offset="0%" />
+                <stop stop-color="rgb(255,255,255)" offset="50%" />
+                <stop stop-color="rgb(255,255,255)" offset="70%" />
+                <stop stop-color="rgb(0,0,0)" offset="100%" />
+            </linearGradient>
+
+            <mask id="mask-text-appear" maskcontentunits="userSpaceOnUse">
+                <rect width="150%" height="100%" fill="url(#gr-mask-opacity)" />
+            </mask>
+
+            <pattern id="pt-stripes" width="150" height="100" viewBox="0 0 600 400" patternUnits="userSpaceOnUse">
+                <g class="g-lines">
+                    <path d="M0,0 600,400" class="pt-line" />
+                    <path d="M0,200 600,350" class="pt-line" />
+                    <path d="M0,350 600,350" class="pt-line" />
+                    <path d="M0,200 600,0" class="pt-line" />
+                    <path d="M0,150 600,200" class="pt-line" />
+                    <path d="M0,400 600,150" class="pt-line" />
+                    <path d="M0,150 600,100" class="pt-line" />
+                    <path d="M0,100 600,300" class="pt-line" />
+                    <path d="M0,300 600,10" class="pt-line" />
+                    <path d="M0,300 600,250" class="pt-line" />
+                    <path d="M0,250 600,400" class="pt-line" />
+                    <path d="M100,0 600,200" class="pt-line" />
+                    <path d="M100,0 0,250" class="pt-line" />
+                    <path d="M400,0 300,400" class="pt-line" />
+                    <path d="M300,0 100,400" class="pt-line" />
+                    <path d="M200,0 300,400" class="pt-line" />
+                    <path d="M400,0 600,400" class="pt-line" />
+                    <path d="M400,400 500,0" class="pt-line" />
+                    <path d="M200,400 170,0" class="pt-line" />
+                    <path d="M170,400 370,0" class="pt-line" />
+                    <path d="M370,400 600,0" class="pt-line" />
+                    <path d="M0,40 600,40" class="pt-line" />
+                    <path d="M0,20 600,100" class="pt-line" />
+                    <path d="M500,400 600,100" class="pt-line" />
+                    <path d="M0,100 40,40" class="pt-line" />
+                    <path d="M260,-5 60,405" class="pt-line" />
+                    <path d="M60,-5 260,405" class="pt-line" />
+                    <path d="M-5,240 110,405" class="pt-line" />
+                    <path d="M120,160 0,405" class="pt-line" />
+                    <path d="M600,200 395,405" class="pt-line" />
+                    <path d="M400,120 370,405" class="pt-line" />
+                    <path d="M300,0 400,120" class="pt-line" />
+                    <path d="M280,190 370,405" class="pt-line" />
+                </g>
+            </pattern>
+            <g mask="url(#mask-text-appear)" fill="url(#pt-stripes)">
+                <text x="21.1%" y="33%" dy=".05em" dx=".20em" text-anchor="end">&#x22D9;</text>
+                <text x="99.9%" y="33%" dy=".05em" dx=".20em" text-anchor="end">&#x22D9;</text>
+                <text x="45%" y="46%" dy=".45em" dx=".50em" text-anchor="middle">Honey</text>
+                <text x="21.1%" y="66%" dy=".65em" dx=".20em" text-anchor="end">&#x22D9;</text>
+                <text x="99.9%" y="66%" dy=".65em" dx=".20em" text-anchor="end">&#x22D9;</text>
+                
+            </g>
+
+        </svg>
+    </div>
+  <header id="headerShow">
+    <ul id="slide-out" class="side-nav custom-scrollbar">
+
+      <div class="container-logo row">
+        <li class=" flex-center img-logo col-4">
+        </li>
+        <li class="img-fluid col-7">
+          <a class="logo-wrapper waves-light pl-0" href="index.html">
+            <p class="logo-text">Honey</p>
+          </a>
+
+        </li>
+      </div>
+      <li>
+        <ul class="social">
+          <li>
+            <a class="fb-ic" target="_blank" href="https://www.facebook.com/"> <i class="fa fa-facebook"> </i> </a>
+          </li>
+          <li>
+            <a class="pin-ic" target="_blank" href="https://pl.pinterest.com/"> <i class="fa fa-pinterest"> </i> </a>
+          </li>
+          <li>
+            <a class="gplus-ic" target="_blank" href="https://plus.google.com/discover"> <i class="fa fa-google-plus"> </i> </a>
+          </li>
+          <li>
+            <a class="tw-ic" target="_blank" href="https://twitter.com/?lang=pl"> <i class="fa fa-twitter"> </i> </a>
+          </li>
+        </ul>
+      </li>
+      <li class="side-navigation-links">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header waves-effect arrow-r">
+              <i class="fa fa-bookmark-o text-warning"></i>
+              Types of honey
+              <i class="fa fa-angle-down rotate-icon"></i>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="acacia-link">
+                    <div class="letter">A</div>
+                    <div class="letter">c</div>
+                    <div class="letter">a</div>
+                    <div class="letter">c</div>
+                    <div class="letter">i</div>
+                    <div class="letter">a</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="heather-link">
+                    <div class="letter">H</div>
+                    <div class="letter">e</div>
+                    <div class="letter">a</div>
+                    <div class="letter">t</div>
+                    <div class="letter">h</div>
+                    <div class="letter">e</div>
+                    <div class="letter">r</div>
+                    
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="buckwheat-link">
+                    <div class="letter">B</div>
+                    <div class="letter">u</div>
+                    <div class="letter">c</div>
+                    <div class="letter">k</div>
+                    <div class="letter">w</div>
+                    <div class="letter">h</div>
+                    <div class="letter">e</div>
+                    <div class="letter">a</div>
+                    <div class="letter">t</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="honeydew-link">
+                    <div class="letter">H</div>
+                    <div class="letter">o</div>
+                    <div class="letter">n</div>
+                    <div class="letter">e</div>
+                    <div class="letter">y</div>
+                    <div class="letter">d</div>
+                    <div class="letter">e</div>
+                    <div class="letter">w</div>
+                    
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="collapsible-header waves-effect arrow-r">
+              <i class="fa fa-bookmark-o text-warning"></i>Recipes
+              <i class="fa fa-angle-down rotate-icon"></i>
+            </a>
+            <div class="collapsible-body">
+              <ul>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="puffed-cereal-link">
+                    <div class="letter">P</div>
+                    <div class="letter">u</div>
+                    <div class="letter">f</div>
+                    <div class="letter">f</div>
+                    <div class="letter">e</div>
+                    <div class="letter">d&nbsp</div>
+                    <div class="letter">C</div>
+                    <div class="letter">e</div>
+                    <div class="letter">r</div>
+                    <div class="letter">e</div>
+                    <div class="letter">a</div>
+                    <div class="letter">l</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="chocolade-bites-link">
+
+                    <div class="letter">C</div>
+                    <div class="letter">h</div>
+                    <div class="letter">o</div>
+                    <div class="letter">c</div>
+                    <div class="letter">o</div>
+                    <div class="letter">l</div>
+                    <div class="letter">a</div>
+                    <div class="letter">d</div>
+                    <div class="letter">e&nbsp</div>
+                    <div class="letter">B</div>
+                    <div class="letter">i</div>
+                    <div class="letter">t</div>
+                    <div class="letter">e</div>
+                    <div class="letter">s</div>
+                    
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="waves-effect active nav-link" id="tropical-smoothie-bowl-link">
+                    <div class="letter">T</div>
+                    <div class="letter">r</div>
+                    <div class="letter">o</div>
+                    <div class="letter">p</div>
+                    <div class="letter">p</div>
+                    <div class="letter">i</div>
+                    <div class="letter">c</div>
+                    <div class="letter">a</div>
+                    <div class="letter">l&nbsp</div>
+                    <div class="letter">S</div>
+                    <div class="letter">m</div>
+                    <div class="letter">o</div>
+                    <div class="letter">o</div>
+                    <div class="letter">t</div>
+                    <div class="letter">h</div>
+                    <div class="letter">i</div>
+                    <div class="letter">e</div>
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="collapsible-header waves-effect" id="contact-link">
+              <i class="fa fa-envelope text-warning"></i> Contact</a>
+          </li>
+        </ul>
+      </li>
+      <div class="sidenav-bg mask-strong"></div>
+    </ul>
+    <nav class="navbar navbar-3 fixed-top navbar-expand-lg  navbar-light scrolling-navbar white">
+      <div class="container">
+        <div class="float-left mr-2">
+          <a href="#" data-activates="slide-out" class="button-collapse">
+            <i class="fa fa-bars fa-lg amber-text" aria-hidden="true"></i>
+          </a>
+        </div>
+        <a class="navbar-brand font-weight-bold" href="index.html">
+          <strong class="text-main-in-navbar">Main</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+          aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light font-weight-bold" href="mailto:matylda.czub@pm.me">
+                <i class="fa fa-envelope text-warning"></i> Mail
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link waves-effect waves-light font-weight-bold" target="_blank" href="https://www.linkedin.com/in/matyldaczuba/">
+                <i class="fa fa-linkedin text-warning"></i> LinkedIn</a>
+            </li>
+            <li class="nav-item dropdown ml-3">
+              <a class="nav-link dropdown-toggle waves-effect waves-light font-weight-bold" id="navbarDropdownMenuLink-4"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-git text-warning"></i> Github
+              </a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-warning" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item waves-effect waves-light" target="_blank" href="https://github.com/matyldaczuba">My account</a>
+                <a class="dropdown-item waves-effect waves-light" target="_blank" href="https://github.com/matyldaczuba/project-rwd-honey">This project</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="column-wrapper" id='mainPage'>
+    <section class="new-content">
+      <div class="page-wrapper" id="coidea">
+
+        <div class="slider">
+
+          <ul class="slider-list">
+
+            <li class="slider-list__item slider-list__item_active">
+              <span class="back__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="main__element">
+                <img src="img/imageHoney.png" />
+              </span>
+              <span class="front__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="more__element">
+                <span class="content">
+                  <span class="headline">Honey Acacia</span>
+                  <span class="excerpt">Has anyone tried mornings honey? It is awesome in taste and makes your tastebuds tinkling.</span>
+                  <span class="link">
+                    <div class="fill"></div>
+                    <a href="#" id="acacia-btn-link">Read more</a>
+                  </span>
+                </span>
+              </span>
+            </li>
+
+            <li class="slider-list__item">
+              <span class="back__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="main__element">
+                <img src="img/imageHoney.png" />
+              </span>
+              <span class="front__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="more__element">
+                <span class="content">
+                  <span class="headline">Honey Heather</span>
+                  <span class="excerpt">Has anyone tried mornings honey? It is awesome in taste and makes your tastebuds tinkling.</span>
+                  <span class="link">
+                    <div class="fill fill-dark"></div>
+                    <a href="#" id="heather-btn-link">Read more</a>
+                  </span>
+                </span>
+              </span>
+            </li>
+
+            <li class="slider-list__item">
+              <span class="back__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="main__element">
+                <img src="img/imageHoney.png" />
+              </span>
+              <span class="front__element">
+                <img src="img/front.png" />
+              </span>
+              <span class="more__element">
+                <span class="content">
+                  <span class="headline">Honey Honeydew</span>
+                  <span class="excerpt">Has anyone tried mornings honey? It is awesome in taste and makes your tastebuds tinkling.</span>
+                  <span class="link">
+                    <div class="fill"></div>
+                    <a href="#" id="honeydew-btn-link">Read more</a>
+                  </span>
+                </span>
+              </span>
+            </li>
+
+          </ul>
+
+          <div class="slider__nav-bar">
+            <a class="nav-control"></a>
+            <a class="nav-control"></a>
+            <a class="nav-control"></a>
+          </div>
+
+          <div class="slider__controls">
+            <a class="slider__arrow slider__arrow_prev"></a>
+            <a class="slider__arrow slider__arrow_next"></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/function.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/startPage.js"></script>
+  <script src="js/fetch.js"></script>
+
+</body>
+
+</html>

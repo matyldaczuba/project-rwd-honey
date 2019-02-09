@@ -1,0 +1,92 @@
+.nav-wrapper {
+    font-family: 'Molle', cursive;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 100;
+    background: #fff;
+
+}
+
+
+.logo {
+    font-size: 12px;
+    background: #ffe400;
+}
+
+.img-logo {
+    background: url(../img/hc-black.png);
+    height: 5em;
+    width: 6em;
+    background-size: 5em;
+    background-repeat: no-repeat;
+    margin-left: 1.4em;
+    margin-bottom: .2em;
+}
+
+.logo-text{
+    font-family: 'Molle', cursive;
+    font-size: 2em;
+    max-width: 100%;
+    color: rgb(65, 65, 65);
+    margin-top: 10px;
+}
+
+.letter{
+    display: inline-block;
+    letter-spacing: -0.1em;
+}
+
+.hover-blue-text:hover{
+    color:#ffe400;;
+}
+
+.container-logo{
+    background-color: #ffe400;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+.nav-link {
+    color: #B1B1B1;
+    text-decoration: none;
+    display: flex;
+    /* flex-direction: row; */
+    transition: color 1s ease;
+}
+
+.nav-link:hover {
+    color: #e40303!important;
+    /* color: #000!important; */
+
+}
+
+.navbar.navbar-3 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=ffe400');
+}
+
+.white-skin .navbar {
+    background: #d8dfe4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dde3e6, #dfe7ec);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dde3e6, #e1e6eb); 
+}
+
+.white-skin .side-nav {
+    background: url(https://img3.goodfon.ru/wallpaper/big/8/65/pchelinye-soty-pchely-med.jpg);
+}
+
+@media (max-height: 992px) {
+    .side-nav .logo-wrapper {
+        height: 60px;
+        border: none;
+    }
+}
